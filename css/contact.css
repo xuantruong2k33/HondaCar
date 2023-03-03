@@ -1,0 +1,114 @@
+/* Reset default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Set body background and font */
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+
+/* Set menu styles */
+nav {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+nav h1 {
+	font-size: 24px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-right: 45px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li.active a {
+	font-weight: bold;
+}
+
+/* Set banner styles */
+.banner {
+	height: 200px;
+	background-image: url('/image/contact2.jpg');
+	background-size: cover;
+	background-position: center;
+    height: 90vh;
+    background-attachment: fixed;
+	height: 200px;
+}
+
+/* Set main styles */
+.main {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.main h1 {
+	margin-bottom: 20px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #333;
+}
+
+.main p {
+	margin-bottom: 20px;
+	color: #666;
+}
+
+.main label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #333;
+}
+
+.main input,
+.main textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	font-size: 16px;
+	color: #333;
+}
+
+.main input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* Set footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
